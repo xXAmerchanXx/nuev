@@ -1,0 +1,38 @@
+*{
+
+}
+
+
+
+#main-banner {
+  margin: 0;
+  border: thin solid black;
+  background-color: rgb(0, 87, 255)
+  background-image:url("img/images.jpg");
+}
+
+#main-banner > h1 {
+  padding-left: 2em;
+  color: white;
+}
+
+
+#main-banner > p {
+  color: black;
+}
+
+#main-banner > span > a {
+  float: right;
+}
+
+p {
+   background-color: red;
+ }
+.colorazul {
+  font-size: 2em;
+  color: yellow;
+  border: thin solid blue;
+  padding: 1em;
+  margin: 2em;
+  border-radius: 2em;
+}

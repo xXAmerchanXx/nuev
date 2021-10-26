@@ -1,38 +1,63 @@
-*{
-
+.inicio{
+width: 100%;
+margin-left: 34%;
+}
+h1{
+    display: inline;
+    font-family: arial;
+}
+.titulo1{
+    font-size: 60px;
+    color:rgb(74, 151, 22);
+    width: 20%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.titulo2{
+    font-size: 60px;
+    color: white;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(74, 151, 22);
+    margin-left: 2px;
+}
+.caja {
+    font-family: arial;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-left: 20%;
+    color: #ffffff;
+    font-size: 25px;
+    background: #4a4b4d;
+    border-radius: 30px 30px 0px 0px;
 }
 
-
-
-#main-banner {
-  margin: 0;
-  border: thin solid black;
-  background-color: rgb(0, 87, 255)
-  background-image:url("img/images.jpg");
+.dentrocaja{
+    width: 50%;
+    background-color: #d2d6c3af;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-left: 20%;
+    height: 50%;
 }
-
-#main-banner > h1 {
-  padding-left: 2em;
-  color: white;
+.papa{
+    border: 1px solid black;
+    width: 65%;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    padding-left: 15px;
 }
-
-
-#main-banner > p {
-  color: black;
-}
-
-#main-banner > span > a {
-  float: right;
-}
-
-p {
-   background-color: red;
- }
-.colorazul {
-  font-size: 2em;
-  color: yellow;
-  border: thin solid blue;
-  padding: 1em;
-  margin: 2em;
-  border-radius: 2em;
+.responde{
+    border: 1px solid black;
+    width: 60%;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(96, 204, 74, 0.76);
+    padding-right: 15px;
+    margin-left: 35%;
+    text-align: right;
 }
